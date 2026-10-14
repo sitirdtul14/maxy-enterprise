@@ -1,0 +1,3 @@
+FOTO SEMENTARA (preview)
+assets/gallery/g1-g5.jpg dan assets/prog/{ceo,finance,hr,marketing,ops,agent,talent}.jpg adalah potongan dari foto hero resmi maxy.academy, dipakai hanya agar tampilan terlihat penuh.
+Ganti dengan foto asli/AI: unggah file bernama sama (yang paling baru otomatis dipakai).

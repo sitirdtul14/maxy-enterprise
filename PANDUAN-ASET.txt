@@ -1,0 +1,41 @@
+PANDUAN ASET FOTO DAN VIDEO (revisi web Maxy)
+
+Cara kerja: taruh file dengan nama persis seperti di bawah, halaman otomatis memakainya. Tidak perlu edit kode.
+Selama file belum ada, slot tampil sebagai kotak contoh (diatur di data.php, site > placeholders). Kalau mau slot kosong disembunyikan saat launch, ubah placeholders menjadi false.
+
+1. FOTO PROFIL TRAINER (assets/people/)
+   Nama file: t1 sampai t8, urutan sama dengan daftar trainer di data.php. Format jpg, png, atau webp.
+   Foto yang diunggah paling baru otomatis dipakai, jadi file lama tidak perlu dihapus.
+   Spesifikasi: potret, rasio 4:5, minimal 800 x 1000 px, wajah tajam dan terang, latar polos (putih atau abu muda), bahu ke atas, pakaian rapi.
+   Foto lama berukuran 488 x 356 px dan sudah buram dari sumbernya, jadi tidak bisa diperjelas lewat kode. Perlu foto baru.
+   Pakai foto asli trainer, jangan hasil AI.
+
+2. VIDEO PESAN FEEDBACK (assets/video/)
+   Nama file: feedback-1.mp4, feedback-2.mp4, feedback-3.mp4. Poster (gambar sampul) opsional: feedback-1.jpg dan seterusnya.
+   Spesifikasi: mp4 (H.264), landscape 16:9, 1280 x 720, durasi 20 sampai 45 detik, maksimal sekitar 15 MB per video, ada subtitle bila memungkinkan.
+   Boleh diisi 1, 2, atau 3 video. Slot yang kosong disembunyikan bila sudah ada minimal satu video.
+   Pastikan peserta sudah memberi izin tampil.
+
+3. VIDEO PEMBUKA HERO (opsional, assets/video/hero.mp4)
+   Tanpa suara, berulang otomatis. Durasi 8 sampai 15 detik, 1280 x 720, maksimal sekitar 8 MB. Foto hero tetap jadi sampul saat video dimuat.
+
+4. FOTO TRAINING (assets/gallery/)
+   Nama file: g1 sampai g5 (jpg, png, atau webp).
+   g1 tampil besar: landscape, minimal 1600 x 1200 px. g2 sampai g5: minimal 1200 x 900 px.
+   Isi: suasana training sungguhan (peserta praktik, trainer menjelaskan, diskusi kelompok, presentasi hasil). Caption diatur di data.php, final > gcap.
+   Disarankan foto asli dari sesi training, bukan hasil AI.
+
+5. FOTO CARD PROGRAM (assets/prog/)
+   Nama file: ceo, finance, hr, marketing, ops, agent, talent (jpg, png, atau webp), misalnya assets/prog/finance.jpg.
+   Spesifikasi: landscape 3:2, minimal 1600 x 1070 px, objek utama di tengah karena gambar dipotong mengikuti ukuran kartu.
+   Foto AI boleh dipakai untuk bagian ini. Contoh prompt ada di PROMPT-FOTO-AI.txt.
+   Selama belum ada foto, kartu memakai ilustrasi bawaan (file nama-scene.svg).
+
+6. LOGO KLIEN (assets/clients/)
+   Logo sekarang disematkan langsung ke halaman, jadi tidak lagi bergantung pada pemanggilan file terpisah. Untuk mengganti logo, timpa file di assets/clients/ dengan nama yang sama. Logo asli resolusi penuh disimpan di assets/clients/_original/.
+
+Catatan upload ke hosting: unggah semua folder dalam mode BINARY (bukan ASCII/text), pastikan folder assets/clients, assets/video, assets/gallery, dan assets/people ikut terunggah.
+
+7. VIDEO PER CARD SOLUSI (opsional)
+   Nama file di assets/video/: prog-ceo.mp4, prog-finance.mp4, prog-hr.mp4, prog-marketing.mp4, prog-ops.mp4, prog-agent.mp4, prog-talent.mp4
+   Tanpa suara, berulang otomatis, 6 sampai 12 detik, landscape 3:2 atau 16:9, maksimal sekitar 5 MB per video. Foto card jadi sampul saat video dimuat. Card tanpa video tetap memakai foto.

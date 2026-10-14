@@ -1,0 +1,75 @@
+<?php
+// ===== SEMUA ISI HALAMAN ADA DI SINI. Edit file ini, halaman langsung berubah. =====
+return [
+ 'site'=>[
+  'title'=>'Maxy Corporate | AI & Digital Transformation for Corporate',
+  'desc'=>'Solusi AI end-to-end untuk perusahaan: pelatihan AI, AI agent, dan talent placement dari Maxy.',
+  'logo'=>'assets/logo-maxy.png','logo_icon'=>'assets/logo-maxy-icon.png','storage_dir'=>dirname(__DIR__).'/maxy-storage', // simpan lead di LUAR web root; kalau tidak bisa ditulis, otomatis pakai ./storage
+  'wa'=>'628113955599',
+  'wa_default'=>'Halo Maxy Corporate! Saya tertarik konsultasi',
+  'checkup_url'=>'https://maxy.academy/ai-checkup',
+  'email'=>'people@infomaxy.academy','placeholders'=>true, // true: slot foto/video yang belum ada tampil sebagai kotak contoh. Ubah ke false saat launch (slot kosong disembunyikan)
+  'social_title'=>'Ikuti sosial media kami','phone'=>'WhatsApp +62 811-3955-599',
+  'socials'=>['Instagram'=>'https://www.instagram.com/maxy.academy','LinkedIn'=>'https://www.linkedin.com/company/maxyacademy/','Facebook'=>'https://www.facebook.com/maxy.academy','TikTok'=>'https://www.tiktok.com/@maxy.academy'],
+  'addresses'=>[
+   'MAXY AI HUB'=>'Graha Pengharapan 2nd Fl, Jl. Denpasar Raya No.2 Blok F3, Jakarta Selatan 12950',
+   'MAXY Academy'=>'Pakuwon Tower 26J, Jl Raya Kasablanka 88, Jakarta Selatan 12870',
+   'MAXY Academy - Surabaya'=>'Ciputra World VieLoft 1220, Jl Mayjend Sungkono 89, Surabaya 60224'],
+ ],
+ 'nav'=>['solution'=>'Solusi','clients'=>'Portfolio','why'=>'Kenapa Maxy','testimonial'=>'Testimoni','trainer'=>'Trainer','assessment'=>'AI Check Up'],
+ 'hero'=>['stats'=>[['100+','Perusahaan klien'],['5.000+','Profesional terlatih'],['80%','Praktik langsung']],
+  'h1'=>'Pelatihan AI & Transformasi Digital untuk','mark'=>'Korporasi',
+  'lead'=>'Pelatihan AI korporat untuk bisnis Indonesia, mengubah AI dari sekadar tren menjadi mesin pertumbuhan, dari level eksekutif sampai staf.',
+  'photo'=>'assets/hero','photo_alt'=>'Tim profesional belajar AI bersama Maxy','chips'=>[['Meningkatkan ROI','Solusi Efisien'],['Tim Produktif','Siap Bersaing']],'cta1'=>'Konsultasi Sekarang','cta2'=>'Pelajari'],
+ 'solution'=>['title'=>'Program AI yang pas untuk setiap level dan divisi di perusahaan Anda','intro'=>'Pilih program yang spesifik sesuai kebutuhan tim Anda, dari ruang direksi sampai lini operasional.',
+  'group'=>'AI untuk Divisi Fungsional','group_note'=>'Pelatihan AI yang dirancang khusus untuk tiap divisi.',
+  'services'=>[
+   ['kind'=>'row','img'=>'ceo','name'=>'AI CEO Circle','desc'=>'Advisory privat berbasis praktisi untuk para pemimpin yang beralih dari sekadar memakai tools menuju desain organisasi otonom. Susun kerangka kerja dan model tata kelola yang dibutuhkan untuk menjalankan perusahaan yang AI-native.','chips'=>['Advisory 1:1 untuk menguji roadmap Anda secara rahasia','Kohort sesama pemimpin secara tertutup untuk benchmarking strategis','Blueprint Agentic AI dan playbook transformasi']],
+   ['kind'=>'cell','img'=>'finance','name'=>'AI untuk Divisi Keuangan','desc'=>'Pelatihan AI untuk keuangan agar tim Anda menghasilkan insight lebih cepat, laporan lebih rapi, dan kontrol risiko lebih kuat.','chips'=>['Insight keuangan','Pelaporan','Kontrol risiko']],
+   ['kind'=>'cell','img'=>'hr','name'=>'AI untuk Divisi Human Capital','desc'=>'Pelatihan AI untuk HR dan rekrutmen, supaya mencari, mengembangkan, dan menilai talenta jadi lebih cepat dan akurat.','chips'=>['Rekrutmen (AI Recruitment Mastery: Hire Faster, Hire Smarter)','Pengembangan karyawan','Manajemen kinerja']],
+   ['kind'=>'cell','img'=>'marketing','name'=>'AI untuk Divisi Marketing & Kreatif','desc'=>'Pelatihan AI untuk marketing dan konten, agar materi lebih konsisten, pemahaman pelanggan lebih dalam, dan lead lebih mudah menjadi konversi.','chips'=>['Pembuatan konten','Customer insight','Lead generation']],
+   ['kind'=>'cell','img'=>'ops','name'=>'AI untuk Operasional & Manajemen','desc'=>'Pelatihan AI untuk operasional dan manajemen yang memangkas pekerjaan administrasi berulang, mempercepat keputusan, dan meningkatkan produktivitas tim.','chips'=>['Otomatisasi alur kerja','Dukungan keputusan','Produktivitas harian']],
+   ['kind'=>'row','img'=>'agent','name'=>'Solusi AI Agent','desc'=>'Maxy membangun AI agent otonom yang tidak hanya menjawab, tetapi juga bertindak. Dari layanan pelanggan sampai otomatisasi proses, bisnis Anda bekerja lebih cerdas, bergerak lebih cepat, dan tumbuh dengan percaya diri.','chips'=>['Layanan pelanggan AI di WhatsApp dan web, 24/7, dalam Bahasa Indonesia dan Inggris','Otomatisasi alur kerja yang terhubung ke CRM, ERP, spreadsheet, dan website Anda','AI yang membaca dokumen, SOP, dan kontrak Anda, plus pelaporan otomatis','Aman sejak desain, data dan aturan akses tetap di tangan Anda']],
+   ['kind'=>'row','img'=>'talent','name'=>'Talent Placement','desc'=>'Rekrut lulusan bootcamp Maxy yang telah menyelesaikan pelatihan terstruktur, memegang sertifikasi, dan memiliki portofolio proyek nyata. Cocok untuk perusahaan yang butuh talenta AI dan digital dengan cepat, tanpa memulai seleksi dari nol.','chips'=>['Bersertifikat dan siap kerja','Portofolio proyek nyata','Rekrutmen lebih cepat']],
+  ]],
+ 'clients'=>['ey'=>'Portfolio','title'=>'Dipercaya perusahaan dan institusi, dari instansi pemerintah sampai korporasi',
+  'logos'=>['Adira'=>'adira','anteraja'=>'anteraja','Pakuwon'=>'pakuwon','ASSA'=>'assa','MITO'=>'mito','DAAI TV'=>'daai-tv','Lingotalk'=>'lingotalk','BITCORP'=>'bitcorp','Kemendagri'=>'kemendagri','Komdigi'=>'komdigi','Kemendasmen'=>'kemendasmen']],
+ 'why'=>['ey'=>'Kenapa Maxy','sub'=>'Pendekatan yang membuat tim Anda langsung bisa memakai AI di pekerjaan.','title'=>'Kenapa Perusahaan Memilih Maxy',
+  'nums'=>[['Dipercaya oleh','100+','perusahaan'],['Telah melatih','5.000+','profesional']],
+  'points'=>[['Project based learning','Peserta pulang dengan hasil kerja nyata, bukan hanya sertifikat.'],
+   ['Metode pelatihan: 80% praktik langsung','Sebagian besar sesi dipakai untuk praktik langsung, bukan teori.'],
+   ['Modul semi-custom sesuai kebutuhan perusahaan','Modul disesuaikan dengan kebutuhan perusahaan.'],
+   ['Use case nyata, hasil nyata','Dirancang dari masalah nyata tiap divisi dengan hasil terukur.']]],
+ 'testimonial'=>['title'=>'Kata peserta setelah training bersama Maxy','sub'=>'Cerita nyata dari tim di perusahaan klien kami.','dummy'=>true, // true: kartu hanya menampilkan industri (tanpa nama/perusahaan). Ubah ke false setelah testimoni asli dan izin tampil sudah ada
+  'ind_label'=>'Industri','vtitle'=>'Dengar langsung dari peserta','vsub'=>'Video pesan feedback dari peserta training Maxy.','vph'=>'Video pesan feedback segera hadir','list'=>[
+  ['q'=>"Saya pulang dengan banyak wawasan baru tentang cara memakai AI dengan lebih efektif. Cara pandang saya berubah, dari sekadar mencoba tools menjadi memakai AI secara sengaja dalam pekerjaan harian. Sekarang saya tahu di mana AI memberi nilai paling besar.",'name'=>'Faisal','role'=>'Finance, Anteraja','ind'=>'Logistik & Pengiriman'],
+  ['q'=>"Yang paling saya hargai adalah praktik langsungnya. Bukan hanya mendengarkan teori, saya bisa mencoba di situasi kerja nyata dan menemukan pendekatan yang benar-benar cocok. Jadi semua yang dipelajari langsung terpakai.",'name'=>'Yujin','role'=>'Brand & Marketing, Assa','ind'=>'Transportasi & Otomotif'],
+  ['q'=>"AI membantu saya memakai waktu kerja jauh lebih efisien. Tugas yang dulu memakan waktu lama sekarang bisa selesai lebih cepat, sehingga saya punya ruang untuk pekerjaan yang butuh penilaian dan perhatian saya.",'name'=>'Brandon','role'=>'Human Capital, Anteraja','ind'=>'Logistik & Pengiriman'],
+  ['q'=>"Sebagai akuntan, salah satu manfaat terbesarnya adalah bisa membaca laporan keuangan tahun-tahun sebelumnya dengan cepat. Poin penting lebih cepat terlihat, sehingga review dan analisis jauh lebih efisien.",'name'=>'Reihan','role'=>'Accountant, Assa','ind'=>'Transportasi & Otomotif'],
+  ['q'=>"Pelatihan ini memberi saya kerangka yang jelas untuk memakai AI di rekrutmen. Sekarang saya menyaring kandidat dan menyusun job description jauh lebih cepat, dan akhirnya paham di mana penilaian manusia tetap paling penting.",'name'=>'Dimas','role'=>'HR Specialist, Mito','ind'=>'Ritel Elektronik'],
+  ['q'=>"Saya belajar menjadikan AI sebagai partner kreatif yang nyata. Dari ide kampanye sampai draf pertama konten, tim saya kini bergerak lebih cepat dengan brand voice yang tetap konsisten.",'name'=>'Sinta','role'=>'Marketing Lead, DAAI TV','ind'=>'Media & Penyiaran'],
+  ['q'=>"Sesinya berfokus pada alur kerja kami yang sebenarnya, bukan contoh generik. Kami mengidentifikasi tugas administrasi berulang lalu mengotomatisasinya, sehingga tim punya lebih banyak waktu untuk perencanaan dan tindak lanjut.",'name'=>'Bagas','role'=>'Operations Manager, Adira','ind'=>'Jasa Pembiayaan'],
+  ['q'=>"Sebagai pemimpin, saya butuh gambaran jelas di mana AI cocok dalam strategi kami dan bagaimana mengelolanya secara bertanggung jawab. Diskusinya membantu saya mengajukan pertanyaan yang lebih baik dan mengambil keputusan dengan lebih yakin.",'name'=>'Maya','role'=>'Director, Adira','ind'=>'Jasa Pembiayaan'],
+  ['q'=>"Dulu saya menghabiskan banyak waktu menyiapkan customer insight secara manual. Sekarang saya bisa merangkum percakapan dan menemukan pola dengan cepat, jadi bisa fokus berbicara dengan calon pelanggan.",'name'=>'Rangga','role'=>'Sales Executive, Anteraja','ind'=>'Logistik & Pengiriman'],
+ ]],
+ // CONTOH SEMENTARA: angka tahun/bulan/batch di bawah ini dummy, ganti dengan data asli tiap trainer.
+ 'trainer'=>['title'=>'Dipandu praktisi AI berpengalaman','sub'=>'Klik kartu untuk melihat profil singkat.','exp_label'=>'Pengalaman','l_exp'=>'Lama mengajar','l_batch'=>'Batch ditangani','u_y'=>'tahun','u_m'=>'bulan','u_b'=>'batch','list'=>[
+  ['Andy Febrico Bintoro','Co-Founder & CTO MAXY Academy','t1',[],['tahun'=>3,'bulan'=>6,'batch'=>12]],
+  ['Isaac Munandar','Co-Founder & CEO MAXY Academy','t2',[],['tahun'=>3,'bulan'=>6,'batch'=>12]],
+  ['Ruben Saragih, MBA','Chief Happiness Officer','t3',[],['tahun'=>3,'bulan'=>6,'batch'=>12]],
+  ['Stefen Laksana','Applied AI Expert & Product Manager MAXY Academy','t4',[],['tahun'=>3,'bulan'=>6,'batch'=>12]],
+  ['Arief Handoko','Applied AI Expert & Pengembang Konten AI','t5',[],['tahun'=>3,'bulan'=>6,'batch'=>12]],
+  ['Gama Anom','Applied AI Expert & Pengembang Konten AI','t6',[],['tahun'=>3,'bulan'=>6,'batch'=>12]],
+  ['Dr. Mark Barnabas Lee','Trainer Bersertifikat WSQ ACLP','t7',[],['tahun'=>3,'bulan'=>6,'batch'=>12]],
+  ['Rijois Erwin Phd (Cand)','Pakar AI','t8',[],['tahun'=>3,'bulan'=>6,'batch'=>12]],]],
+ 'checkup'=>['title'=>'AI Check Up','text'=>'Assessment kesiapan AI untuk perusahaan Anda. Ikuti AI Check Up, atau diskusikan hasilnya langsung dengan tim Maxy.',
+  'bullets'=>['Skor kesiapan AI per area','Rekomendasi program yang cocok','Ringkasan 1 halaman untuk manajemen'],'cta1'=>'Mulai AI Check Up','cta2'=>'Tanya via WhatsApp','tag'=>'AI READINESS SCAN','sample'=>'Contoh tampilan hasil','score_label'=>'Skor kesiapan AI','areas'=>[['Strategi',82],['Data',70],['Talenta',76],['Teknologi',88]]],
+ 'final'=>['title'=>'Adopsi AI dengan Tetap Menjaga Kredibilitas Institusi','text'=>'Bangun sistem AI governance yang kuat dan minimalkan risiko. Isi form singkat ini, tim Maxy akan menghubungi Anda.',
+  'gtitle'=>'Momen training bersama Maxy','gsub'=>'Praktik langsung, diskusi, dan kerja tim di ruang pelatihan.','gcap'=>['Sesi training di kelas','Praktik langsung bersama trainer','Diskusi kelompok','Workshop AI untuk tim','Presentasi hasil proyek']],
+ 'ui'=>[
+  'more'=>'Info lebih lanjut','play'=>'Putar video','zoom'=>'Perbesar foto','close'=>'Tutup','talk'=>'Konsultasi dengan tim Maxy','name'=>'Nama','email'=>'Email kantor','company'=>'Perusahaan','need'=>'Kebutuhan','send'=>'Kirim',
+  'wa_hi'=>'Halo Maxy Corporate!','wa_interest'=>'Saya tertarik dengan','wa_checkup'=>'Saya ingin tanya soal AI Check Up','wa_name'=>'Nama','wa_email'=>'Email','wa_company'=>'Perusahaan','wa_need'=>'Kebutuhan',
+  'err_csrf'=>'Sesi form kedaluwarsa. Muat ulang halaman lalu coba lagi.','err_wait'=>'Mohon tunggu beberapa detik sebelum mengirim lagi.','err_fields'=>'Mohon isi nama, email kantor yang valid, dan perusahaan.',
+  'aria_nav'=>'Utama','aria_menu'=>'Menu','aria_hero'=>'Ilustrasi roadmap transformasi AI','aria_gauge'=>'Ilustrasi AI Readiness','aria_wa'=>'Chat WhatsApp','aria_lang'=>'Bahasa',
+ ],
+];

@@ -1,0 +1,26 @@
+CONTOH PROMPT FOTO AI UNTUK CARD PROGRAM (7 gambar)
+
+Hanya untuk card program di bagian Solusi. Untuk foto trainer, foto training, dan video feedback, pakai dokumentasi asli.
+Format keluaran: landscape 3:2, minimal 1600 x 1070 px. Tambahkan di akhir tiap prompt: no text, no logos, no watermark, realistic photography, natural lighting, shallow depth of field, deep blue (#192e6d) accent tones.
+Hindari menampilkan wajah yang dekat dan detail. Pose setengah badan atau dari samping lebih aman hasilnya.
+
+ceo.jpg
+Indonesian executives in a modern boardroom, a senior leader presenting an AI strategy roadmap on a large screen, glass walls, Jakarta skyline in the background.
+
+finance.jpg
+Finance team in a bright office reviewing charts and financial dashboards on laptops and a wall monitor, calculator and documents on the table, focused collaborative mood.
+
+hr.jpg
+HR team interviewing a candidate in a modern meeting room, laptop showing a talent dashboard, warm professional atmosphere, notebook and coffee on the table.
+
+marketing.jpg
+Creative marketing team brainstorming at a table with sticky notes, content calendar on a screen, laptops with social media designs, colorful but professional workspace.
+
+ops.jpg
+Operations managers in a modern office monitoring workflow automation on multiple screens, process diagrams on a whiteboard, calm and efficient atmosphere.
+
+agent.jpg
+Customer service workspace where a team monitors an AI chatbot conversation on a monitor, smartphone showing a chat interface, soft blue light glow, futuristic yet realistic.
+
+talent.jpg
+Bootcamp graduates in smart casual wear holding certificates and laptops, smiling, proud mood, bright training room, ready-to-work portfolio on screen.
